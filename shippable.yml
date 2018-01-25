@@ -8,4 +8,4 @@ build:
   ci:
     - echo "In CI"
   push:
-    - shipctl post_resource_state $JOB key1 value1
+    - shipctl post_resource_state $JOB_NAME key1 value1
