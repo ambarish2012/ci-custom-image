@@ -9,5 +9,5 @@ build:
     - echo "In CI"
   push:
     - shipctl post_resource_state $JOB_NAME key1 value1
-    - shipctl get_resource_version_key $JOB_NAME key1
+    
    
