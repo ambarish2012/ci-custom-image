@@ -2,7 +2,7 @@ language: none
 
 build:
   pre_ci_boot:
-    image_name: library/node
+    image_name: library/node:latest
   ci:
     - echo "In CI"
   push:
