@@ -2,7 +2,9 @@ language: none
 
 build:
   pre_ci_boot:
-    image_name: library/node:latest
+    image_name: library/node
+    image_tag: latest
+    pull: true
   ci:
     - echo "In CI"
   push:
