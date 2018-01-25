@@ -3,10 +3,7 @@ language: none
 build:
   pre_ci_boot:
     image_name: library/node
-    
-build:
   ci:
     - echo "In CI"
-  
   push:
     - shipctl post_resource_state $JOB key1 value1
